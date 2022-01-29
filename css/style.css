@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rajdhani:wght@300&family=Raleway:ital,wght@1,100&family=Red+Hat+Display:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35%;
+    gap: 22%;
+}
+
+
+.blue{
+    background-image: url("peter.jpg");
+    background-size: cover;
+}
+
+.black{
+    background-image: url("spider.jpg");
+    background-size: cover;
+}
